@@ -1,9 +1,8 @@
 {
-  "extends": "tsconfig/base.json",
   "compilerOptions": {
     "module": "commonjs",
     "outDir": "dist",
-    "target": "ES2017",
+    "target": "ES6",
     "strict": true,
     "skipLibCheck": true,
     "noImplicitReturns": true,

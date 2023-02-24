@@ -1,9 +1,13 @@
 import * as functions from 'firebase-functions';
 
-// // Start writing functions
-// // https://firebase.google.com/docs/functions/typescript
-//
+// import { writeHello } from 'core'; // 👈 UNCOMMENT ME!
+
 export const helloWorld = functions.https.onRequest((request, response) => {
   functions.logger.info('Hello logs!', { structuredData: true });
-  response.send('Hello from Firebase!');
+
+  // const greeting = writeHello(); // 👈 UNCOMMENT ME!
+
+  const greeting = 'IDK feeling loggy';
+
+  response.send(greeting);
 });
