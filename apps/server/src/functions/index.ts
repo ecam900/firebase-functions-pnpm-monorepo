@@ -7,7 +7,6 @@ export const helloWorld = functions.https.onRequest((request, response) => {
 
   // const greeting = writeHello(); // 👈 UNCOMMENT ME!
 
-  const greeting = 'IDK feeling loggy';
-
+  const greeting = 'IDK feeling loggy'; // 🕶️ MAKE ME A COMMENT
   response.send(greeting);
 });
