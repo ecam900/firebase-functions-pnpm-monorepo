@@ -1,0 +1,10 @@
+{
+  "eslint.workingDirectories": [
+    "apps/server",
+    "packages/core"
+  ],
+  "editor.codeActionsOnSave": [
+    "source.fixAll.eslint"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

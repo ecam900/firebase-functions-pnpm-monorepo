@@ -31,3 +31,7 @@ yarn-error.log*
 
 # turbo
 .turbo
+
+# firebase functions build
+dist
+firebase-debug.log
