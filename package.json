@@ -11,7 +11,7 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "build:and-emulate": "pnpm build --filter=server --force && firebase emulators:start --only functions,firestore"
+    "build:and-emulate": "pnpm build --filter=server --force && firebase emulators:start --only functions,firestore --debug"
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",

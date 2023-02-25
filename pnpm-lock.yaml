@@ -30,9 +30,11 @@ importers:
   packages/core:
     specifiers:
       eslint-config-custom: workspace:*
+      rimraf: 4.1.2
       tsconfig: workspace:*
     devDependencies:
       eslint-config-custom: link:../eslint-config-custom
+      rimraf: 4.1.2
       tsconfig: link:../tsconfig
 
   packages/eslint-config-custom:
